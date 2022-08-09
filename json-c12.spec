@@ -5,7 +5,7 @@
 
 Name:		json-c12
 Version:	0.12.1
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	JSON implementation in C (0.12 compatibility package)
 
 License:	MIT
@@ -139,6 +139,9 @@ end
 
 
 %changelog
+* Mon Aug  8 2022 Jeffrey Lau <jeffrey.lau@ribose.com> - 0.12.1-2
+- Re-sign package
+
 * Mon May 8 2017 Jeffrey Lau <jeffrey.lau@ribose.com> - 0.12.1-1
 - Initial compat-package for EPEL >= 6, based on json-c from recent Fedora
 
